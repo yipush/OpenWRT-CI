@@ -69,7 +69,8 @@ UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base q
 UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
-UPDATE_PACKAGE "wechatpush" "tty228/luci-app-wechatpush" "master"
+UPDATE_PACKAGE "luci-app-wechatpush" "tty228/luci-app-wechatpush" "master" "name"
+UPDATE_PACKAGE "luci-app-socat" "Lienol/openwrt-package" "main" "pkg"
 
 #更新软件包版本
 UPDATE_VERSION() {
